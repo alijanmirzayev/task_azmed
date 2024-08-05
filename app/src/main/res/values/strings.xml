@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Aptekonline.az</string>
+    <string name="add">+ Əlavə et</string>
+    <string name="category">Kateqoriya</string>
+    <string name="currency">₼</string>
+    <string name="price">Qiymət</string>
+    <string name="addProduct">Yeni məhsul əlavə et</string>
+    <string name="productName">Məhsul adı daxil edin</string>
+    <string name="productPrice">Məhsul qiyməti daxil edin</string>
+    <string name="productNotes">Məhsul üçün qeydinizi daxil edin</string>
+    <string name="send">Göndər</string>
+    <string name="editProduct">Məhsul düzəliş et</string>
+</resources>
