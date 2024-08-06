@@ -3,6 +3,7 @@ package com.alijan.task.data.source.remote
 import com.alijan.task.data.model.ApiResponse
 import com.alijan.task.data.model.Category
 import com.alijan.task.data.model.Product
+import com.alijan.task.utils.Constant
 import retrofit2.Response
 import retrofit2.http.Body
 import retrofit2.http.DELETE
@@ -15,7 +16,7 @@ import retrofit2.http.Query
 interface APIService {
 
     @GET("items")
-    suspend fun getAllItems(@Query("key") key: String = "zm2af452"): Response<List<Product>>
+    suspend fun getAllItems(@Query("key") key: String = Constant.API_KEY): Response<List<Product>>
 
     @POST("items")
     suspend fun addProduct(@Body item: Product): Response<ApiResponse>
